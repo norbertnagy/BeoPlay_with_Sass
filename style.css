@@ -1,0 +1,275 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@font-face {
+    font-family: 'proximanovalight';
+    src: url('fonts/proximanovalight.eot');
+    src: local('proximanovalight'), url('fonts/proximanovalight.woff') format('woff'), url('fonts/proximanovalight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'pistilli';
+    src: url('fonts/Pistilli-Roman.otf');
+}
+
+body {
+    margin: 0;
+    font-size: 15px;
+    padding: 0 20px;
+    position: relative;
+}
+
+nav {
+    background-color: #fff;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    /* This allows us to arrange list items in a row, without using float */
+}
+
+article {
+    background-color: #f1f1f1;
+    padding-bottom: 50px;
+}
+
+#article-image {
+    text-align: right;
+}
+
+#article-text {
+    font-family: proximanovalight, Sans-serif;
+    color: #666;
+    text-align: left;
+    padding-top: 60px;
+}
+
+#article-text p {
+    font-size: 25px;
+}
+
+#header-top-menu ul {
+    border-bottom-width: thin;
+    border-bottom-color: #f1f1f1;
+    border-bottom-style: solid;
+}
+
+#header-top-menu a {
+    background-color: #fff;
+    display: block;
+    line-height: 2em;
+    padding: 15px 23px;
+    text-decoration: none;
+    font-family: proximanovalight, Sans-serif;
+    font-size: 21px;
+    color: #7d7d7d;
+}
+
+#header-top-menu a:hover {
+    color: #000;
+}
+
+#header-bottom-menu a {
+    background-color: #fff;
+    display: block;
+    line-height: 2em;
+    padding: 20px 12px 15px 12px;
+    text-decoration: none;
+    font-family: proximanovalight, Sans-serif;
+    font-size: 11px;
+    font-weight: bolder;
+    color: #aaa;
+    text-transform: uppercase;
+}
+
+#header-bottom-menu a:hover {
+    color: #000;
+}
+
+#active-menu-link a {
+    color: #000 !important;
+    text-decoration: underline !important;
+}
+
+#footer-top-menu {
+    background-color: #292929;
+    border-bottom-width: thin;
+    border-bottom-color: #b1b1b1;
+    border-bottom-style: solid;
+}
+
+#footer-top-menu a {
+    display: block;
+    line-height: 2em;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-family: proximanovalight, Sans-serif;
+    font-size: 21px;
+    color: #b1b1b1;
+}
+
+#footer-top-menu a:hover {
+    color: #fff;
+}
+
+#footer-top-menu label {
+    line-height: 2em;
+    padding: 15px 23px;
+    text-decoration: none;
+    font-family: proximanovalight, Sans-serif;
+    font-size: 21px;
+    color: #b1b1b1;
+}
+
+#footer-top-menu select {
+    font-family: proximanovalight, Sans-serif;
+    font-size: 21px;
+    background-color: #181818;
+    color: #b1b1b1;
+    height: 34px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 10px;
+}
+
+#footer-bottom-menu {
+    background-color: #292929;
+    padding: 10px 0;
+}
+
+#footer-bottom-menu a {
+    line-height: 2em;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-family: proximanovalight, Sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#footer-bottom-menu a:hover {
+    color: #b1b1b1;
+}
+
+#buy-button {
+    width: 50px;
+    height: 25px;
+    font-size: 11px;
+    background-color: #3f3f3f;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+#buy-button:hover {
+   box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 10px 30px 0 rgba(0,0,0,0.19);
+}
+
+#quote {
+    text-align: center;
+    background-color: #333;
+    color: #b1b1b1;
+    height: 450px;
+}
+
+#quote p {
+    font-family: pistilli, Sans-serif;
+    color: #fff;
+    font-size: 60px;
+    padding-top: 150px;
+    margin-bottom: 0;
+}
+
+#quote a {
+    color: #b1b1b1;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: proximanovalight, Sans-serif;
+    text-transform: uppercase;
+}
+
+#quote a:hover {
+    color: #fff;
+}
+
+footer {
+    display: inline-block;
+    text-align: center;
+    background-color: #333;
+    color: #b1b1b1;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+footer p {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+footer a {
+    color: #b1b1b1;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+#modal-box {
+    background-color: #f0eee9;
+    color: #bcb2a5;
+    font-family: proximanovalight, Sans-serif;
+    font-weight: bold;
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    width: 50%;
+}
+
+#modal-box h3 {
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+#modal-box p {
+    text-align: center;
+}
+
+#close-modal {
+    background-color: #4f4f4f;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+}
+
+#sign-up-button {
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #bcb2a5;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+}
+
+#sign-up-button:hover {
+   box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 10px 30px 0 rgba(0,0,0,0.19);
+}
